@@ -1,3 +1,10 @@
+## Prerequisites
+
+- Install serverless through npm
+- A working AWS account
+- a configured environment (aws configure)
+- sbt
+
 ## Deploy a new version
 sbt assembly
 serverless deploy -f hello
